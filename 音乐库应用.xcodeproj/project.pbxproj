@@ -21,6 +21,13 @@
 		2DE5B05D1848754E0084E95C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE5B03F1848754E0084E95C /* UIKit.framework */; };
 		2DE5B0651848754E0084E95C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DE5B0631848754E0084E95C /* InfoPlist.strings */; };
 		2DE5B0671848754E0084E95C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B0661848754E0084E95C /* _____Tests.m */; };
+		2DE5B073184876E00084E95C /* HTTPClint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B072184876E00084E95C /* HTTPClint.m */; };
+		2DE5B076184878650084E95C /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B075184878650084E95C /* Album.m */; };
+		2DE5B07A18487C210084E95C /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B07918487C210084E95C /* AlbumView.m */; };
+		2DE5B07F184882A00084E95C /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B07E184882A00084E95C /* LibraryAPI.m */; };
+		2DE5B082184886530084E95C /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B081184886530084E95C /* PersistencyManager.m */; };
+		2DE5B085184891ED0084E95C /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B084184891ED0084E95C /* Album+TableRepresentation.m */; };
+		2DE5B08818489A640084E95C /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5B08718489A640084E95C /* HorizontalScroller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,20 @@
 		2DE5B0621848754E0084E95C /* 音乐库应用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "音乐库应用Tests-Info.plist"; sourceTree = "<group>"; };
 		2DE5B0641848754E0084E95C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DE5B0661848754E0084E95C /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		2DE5B071184876E00084E95C /* HTTPClint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClint.h; sourceTree = "<group>"; };
+		2DE5B072184876E00084E95C /* HTTPClint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClint.m; sourceTree = "<group>"; };
+		2DE5B074184878650084E95C /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		2DE5B075184878650084E95C /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		2DE5B07818487C210084E95C /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		2DE5B07918487C210084E95C /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		2DE5B07D184882A00084E95C /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		2DE5B07E184882A00084E95C /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		2DE5B080184886530084E95C /* PersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistencyManager.h; sourceTree = "<group>"; };
+		2DE5B081184886530084E95C /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistencyManager.m; sourceTree = "<group>"; };
+		2DE5B083184891ED0084E95C /* Album+TableRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRepresentation.h"; sourceTree = "<group>"; };
+		2DE5B084184891ED0084E95C /* Album+TableRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRepresentation.m"; sourceTree = "<group>"; };
+		2DE5B08618489A640084E95C /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		2DE5B08718489A640084E95C /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +133,13 @@
 		2DE5B0411848754E0084E95C /* 音乐库应用 */ = {
 			isa = PBXGroup;
 			children = (
+				2DE5B07C184880480084E95C /* Controller */,
+				2DE5B07B18487F300084E95C /* View */,
+				2DE5B07718487BD60084E95C /* Model */,
+				2DE5B070184876AC0084E95C /* API */,
 				2DE5B04A1848754E0084E95C /* AppDelegate.h */,
 				2DE5B04B1848754E0084E95C /* AppDelegate.m */,
 				2DE5B04D1848754E0084E95C /* Main.storyboard */,
-				2DE5B0501848754E0084E95C /* ViewController.h */,
-				2DE5B0511848754E0084E95C /* ViewController.m */,
 				2DE5B0531848754E0084E95C /* Images.xcassets */,
 				2DE5B0421848754E0084E95C /* Supporting Files */,
 			);
@@ -150,6 +173,50 @@
 				2DE5B0631848754E0084E95C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE5B070184876AC0084E95C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2DE5B071184876E00084E95C /* HTTPClint.h */,
+				2DE5B072184876E00084E95C /* HTTPClint.m */,
+				2DE5B07D184882A00084E95C /* LibraryAPI.h */,
+				2DE5B07E184882A00084E95C /* LibraryAPI.m */,
+				2DE5B080184886530084E95C /* PersistencyManager.h */,
+				2DE5B081184886530084E95C /* PersistencyManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		2DE5B07718487BD60084E95C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DE5B074184878650084E95C /* Album.h */,
+				2DE5B075184878650084E95C /* Album.m */,
+				2DE5B083184891ED0084E95C /* Album+TableRepresentation.h */,
+				2DE5B084184891ED0084E95C /* Album+TableRepresentation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DE5B07B18487F300084E95C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DE5B07818487C210084E95C /* AlbumView.h */,
+				2DE5B07918487C210084E95C /* AlbumView.m */,
+				2DE5B08618489A640084E95C /* HorizontalScroller.h */,
+				2DE5B08718489A640084E95C /* HorizontalScroller.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2DE5B07C184880480084E95C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DE5B0501848754E0084E95C /* ViewController.h */,
+				2DE5B0511848754E0084E95C /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE5B073184876E00084E95C /* HTTPClint.m in Sources */,
 				2DE5B0521848754E0084E95C /* ViewController.m in Sources */,
+				2DE5B07A18487C210084E95C /* AlbumView.m in Sources */,
+				2DE5B082184886530084E95C /* PersistencyManager.m in Sources */,
+				2DE5B07F184882A00084E95C /* LibraryAPI.m in Sources */,
+				2DE5B08818489A640084E95C /* HorizontalScroller.m in Sources */,
 				2DE5B04C1848754E0084E95C /* AppDelegate.m in Sources */,
+				2DE5B085184891ED0084E95C /* Album+TableRepresentation.m in Sources */,
+				2DE5B076184878650084E95C /* Album.m in Sources */,
 				2DE5B0481848754E0084E95C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

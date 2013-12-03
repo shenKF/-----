@@ -63,6 +63,7 @@
     [toolbar setItems:@[undoItem,space,delete]];
     [self.view addSubview:toolbar];
     undoStack = [[NSMutableArray alloc] init];
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
 }
 
 -(void)showDataForAlbumAtIndex:(int)albumIndex
